@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans&family=Gentium+Plus:ital@1&family=Inconsolata&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans&family=Gentium+Plus:ital@1&family=Inconsolata&family=Montserrat:ital,wght@0,300;1,500&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    color: #5e503f;
+    background-color: #fdfdfd;
+}
+.navbar{
+    /* background: linear-gradient(180deg, #c6ac8f 20%, #c6ac8f 80%); */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    font-weight: 250;
+    background-color: #5e503f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navel1{
+    display: flex;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.navel2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.navel2 div a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+.navel3{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-right: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.navel3 button{
+    padding: 10px 15px;
+    border-radius: 100px;
+    border: 1.5px solid #ffffff;
+    background-color: #ffffff;
+    color: #5e503f;
+    font-weight: bold;
+    /* font-size: 12px; */
+    margin: 0 3px;
+    cursor: pointer;
+}
+.navel3 a{
+    color: #5e503f;
+    text-decoration: none;
+}
+.home{
+    padding-top: 70px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 70px;
+    padding-top: 400px;
+    width: 700px;
+}
+.short{
+    font-size: 42px;
+}
+.bigtext{
+    font-size: small;
+    font-weight: bolder;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.button1{
+    padding-right: 20px;
+}
+.buttons button{
+    padding: 10px 15px;
+    border-radius: 100px;
+    /* border: #5e503f;
+    border-style: solid;
+    border-width: 1px;
+    color: #5e503f;
+    background-color:#eae0d5; */
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons .button1 button{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: rgb(71, 71, 71);
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: black; */
+    border: 1.5px solid rgb(194, 194, 194);
+}
+
+.buttons .button2 button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fea453;
+    border: 3px solid #fea453;
+    color: white;
+}
+/* .buttons button:hover{
+    background-color: #c6ac8f;
+    color: #eae0d5 ;
+} */
+
+.about{
+    display: block;
+    justify-content: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 500px;
+    /* width: 1000px; */
+    font-family: 'Poppins', sans-serif;
+    color: #5e503f;
+}
+
+.button1 button a{
+    color: #5e503f;
+    text-decoration: none;
+}
+
+.button2 button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* .about{
+   
+} */
+.myself{
+    font-size: 28px;
+    text-align: center;
+    color: rgb(77, 28, 28);
+    padding-bottom: 23px;
+}
+
+.obj{
+    color: rgb(43, 23, 23);
+    position: relative;
+}
+.obj img{
+    width: 1264px;
+    height: 344px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    opacity: 50%;  
+}
+.cancer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    top: 23%; 
+    width: 100%;
+    text-align: center;
+}
+.medicine{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+    position: absolute;
+    top: 35%;
+    text-align: justify;
+}
+
+.services{
+    /* padding-left: 90px; */
+    /* padding-right: 0px; */
+    color: #5e503f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services .part1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.services .part1 .part11{
+    padding-left: 140px;
+}
+
+.services .part1 .part11 .ask{
+    width: 510px;
+    font-size: 30px;
+}
+.services .part1 .part11 .questions{
+    width: 600px;
+    font-size: 15px;
+    line-height: 35px;
+    /* padding-left: 70px; */
+    /* font-size: 30px; */
+}
+.services .part1 .part12 img{
+    width: 400px;
+    height: 270px;
+    padding-right: 0px;
+    /* object-fit: cover; */
+    object-fit: fill;
+    object-position: 50% 50%;
+    /* opacity: 80%; */
+    /* rotate: 180deg; */
+}
+.services .part2{
+    font-weight: 900;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 38px;
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+    /* display: grid; */
+    /* grid-template-columns: 1fr max-content 1fr; */
+    /* grid-template-rows: 20px 0; */
+    /* grid-gap: 20px; */
+    /* align-items:center; */
+}
+.part2{
+    margin: 0 auto ;
+    text-align: center;
+    max-width: 1090px;
+    /* position: relative; */
+    color: #5e503f;
+}
+ 
+.part3{
+    text-align: center;
+}
+.part3 .part31{
+    font-size: 35px;
+    position: relative;
+}
+.part31:before{
+    /* padding-top: 1500px; */
+    content: '';
+    display: block;
+    width: 310px;
+    height: 2.5px;
+    background-color: #5e503f;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.part31:after{
+    content: '';
+    display: block;
+    width: 310px;
+    height: 2.5px;
+    background-color: #5e503f;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+} 
+.part3 .part32{
+    /* text-align: left;   */
+    padding-left: 300px;
+}
+.part3 .part32 .part321{
+    display: inline-block;
+    text-align: left;
+}
+.part3 .part32 li{
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.naturpathy{
+    color: #5e503f;
+    position: relative;
+}
+.naturopathy img{
+    width: 1264px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 50% 45%;                   
+}
+.naturopathy_que{
+    /* padding-left: 200px; */
+    font-weight: 700;
+    font-size: 25px;
+    /* width: 200px; */
+    width: 20%;
+    position: absolute; left: 200px;
+    top: 440%;
+    /* top: 50%; */
+    letter-spacing: 2.5px;
+    line-height: 38px;
+}
+.naturopathy_ans{
+    /* padding-left: 200px; */
+    width: 350px;
+    font-size: 12px;
+    position: absolute; left: 200px;
+    top: 465%;
+}
+.marma{
+    color: #5e503f;
+    position: relative;
+}
+.marma img{
+    width: 1264px;
+    height: 590px;
+    object-fit: cover;
+    object-position: 50% 0%;                   
+}
+.marma_que{
+    /* padding-right: 200px; */
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    width: 400px;
+    /* width: 30%; */
+    position: absolute; left: 600px;
+    top: 15%;
+    letter-spacing: 2.5px;
+    /* line-height: 38px; */
+}
+.marma_ans{
+    color: #ffffff;
+    /* padding-left: 200px; */
+    
+    width: 350px;
+    font-size: 12px;
+    position: absolute; left: 600px;;
+    top: 35%;
+}
+/* .endbar{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-weight: 250;
+    background-color: #5e503f;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */

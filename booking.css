@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fira+Sans&family=Gentium+Plus:ital@1&family=Inconsolata&family=Montserrat:ital,wght@0,300;1,500&family=Poppins:wght@600&display=swap');
+body{
+    --color-light: #DFF6FF;
+    --color-midlight: #47B5FF;
+    --color-middark: #1363DF;
+    --color-dark: #06283D;
+    background-color: #ffffff;
+    color: var(--color-dark);
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* color: #007f67; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 2vw;
+    /* background-size: cover; */
+    /* background: url(ding3.webp); */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* background: linear-gradient(180deg, #c6ac8f 20%, #c6ac8f 80%); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6vw;
+    background-color: var(--color-dark);
+    align-items: center;
+    color: var(--color-light);
+    position: fixed;
+    top: 0%;
+    overflow: hidden;
+    width: 100%;
+    letter-spacing: 0.1vw;
+}
+.navel1{
+    padding: 6vw;
+    font-size: 1.3vw;
+}
+.navel2{
+    padding: 6vw;
+    font-size: 1vw;
+}
+.navel1 a{
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 700;
+}
+.navel2 a{
+    /* text-decoration: none; */
+    color: var(--color-light);
+}
+.container{
+    margin: auto 15vw;
+    color: var(--color-dark);
+    margin-top: 5vw;
+    /* border: 1px solid black; */
+    height: 10vw;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin:3vw 0 0 2vw;
+    font-weight: 600;
+}
+.mainlogo img{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.appointment{
+    font-size: larger;
+    text-align: center;
+    color: var(--color-light);
+    border: 1px solid var(--color-light);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    background-color: var(--color-middark);
+}
+.mainappointment{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left{
+    width: 30%;
+    padding: 1vw;
+    padding-bottom: 4vw;
+}
+.left img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    border: 2px solid var(--color-dark);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+.msg{
+    font-size: 1.3vw;
+}
+.select{
+    text-align: center;
+    font-size: 1.5vw;
+    animation: blinker 4s linear infinite;
+    line-height: 5vw;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+.call{
+    border: 1.5px solid var(--color-midlight);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: var(--color-midlight);
+    padding: 7px;
+    border-radius: 3px;
+}
+.call a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.call br{
+    display: block;
+    font-size: 0.8vw;
+    margin-bottom: 2vw;
+    line-height: 2vw;
+}
+.detail{
+    font-size: 1.1vw;
+}
+.live{
+    border: 1.5px solid var(--color-midlight);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: var(--color-midlight);
+    padding: 0.7vw;
+    border-radius: 3px;
+}
+.live a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* justify-content: center; */
+}
+.right_form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding: 50%;
+    width: 70%;
+}
+.form_input{
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    margin-bottom: 2vw;
+    width: 20vw;
+    border-radius: 100px;
+    border: 0.01px solid var(--color-dark);
+}
+.form h1{
+    font-size: 2.0vw;
+    letter-spacing: 0.1vw;
+    /* padding: 0.5vw; */
+    margin-bottom: 2vw;
+}
+.form_button{
+    margin-top: 2vw;
+    border-radius: 100px;
+    border: 0.01px solid var(--color-dark);
+    font-size: 1.5vw;
+    padding: 0.5vw 1vw;
+}
+.gender_group{
+    display: flex;
+    margin: auto ;
+    margin-bottom: 2vw;
+    /* flex-direction: row; */
+    /* padding-left: -10vw; */
+}
+.form_input-radio{
+    display: flex;
+    /* flex-direction: row; */
+    padding-right: 0.5vw;
+    /* align-content: flex-start; */
+}
+
+.form_input-radio label{
+    display: flex;
+    margin: auto 1vw;
+    font-size: 1.5vw;
+}
